@@ -1,0 +1,32 @@
+.main {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 1.5rem 2rem;
+    color: #f9faf9;
+    overflow: auto;
+}
+.main-title {
+    margin-bottom: 30px;
+}
+
+.main-content {
+    width: 100%;
+    border-radius: 1rem;
+    background-color: #f9faf9;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: auto;
+    column-gap: 5rem;
+    row-gap: 2rem;
+    justify-content: center;
+}
+
+.main-title::after {
+    content: "";
+    width: 40px;
+    height: 5px;
+}
+
