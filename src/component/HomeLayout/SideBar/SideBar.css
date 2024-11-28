@@ -1,0 +1,18 @@
+.home-sidebar {
+    height: calc(100vh - 90px);
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sidebar-list-item {
+    list-style: none;
+    padding: 0.5rem 0.8rem;
+    border-bottom: 1px solid #383838;
+}
+
+.sidebar-list-item a {
+    text-decoration: none;
+    color: #f9faf9;
+}

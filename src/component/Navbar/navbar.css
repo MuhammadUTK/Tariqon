@@ -1,0 +1,76 @@
+.navbar {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f0e0e;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Nav-Logo {
+    text-align: center;
+    width: 150px;
+    justify-self: start;
+}
+
+.Nav-Logo img {
+    width: 90px;
+
+}
+
+.Nav-Items {
+    padding: 10px;
+}
+
+.listing-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.nav-list-item a {
+    text-decoration: none;
+    color: #F4883E;
+    padding: 10px;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+.nav-list-item a:hover {
+    background-color: #F69F65;
+    color: #0E182A;
+}
+
+.User-Info {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Notification {
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 25px;
+}
+
+.Notification img {
+    width: 30px;
+}
+
+.Account {
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 25px;
+}
+
+.Account img {
+    width: 30px
+}

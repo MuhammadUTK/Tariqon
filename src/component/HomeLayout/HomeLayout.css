@@ -1,0 +1,17 @@
+.main-page {
+    display: flex;
+    height: calc(100vh - 90px);
+}
+
+.sidebar-section {
+    width: 200px;
+    background: #141414;
+    overflow: auto;
+    border-right: 1px solid #383838;
+}
+
+.main-section{
+    flex-grow: 2;
+    background: #292929;
+    overflow: auto;
+}
